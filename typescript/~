@@ -1,0 +1,6 @@
+<!-- https://www.youtube.com/watch?v=b598TqLzBb4 -->
+sudo npm i -g typescript
+tsc main.ts
+node main
+-
+tsc --init

@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=rDdbr3sb2io
+npx create-next-app mobx-hello-world
+
+    грузится page.tsx, а должен App.tsx

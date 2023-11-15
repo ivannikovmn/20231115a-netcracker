@@ -1,0 +1,18 @@
+<!-- https://www.youtube.com/watch?v=EfDu-4A6T2M -->
+<!-- https://ru.bem.info/methodology/quick-start/ -->
+
+<div class="блок__элемент_модификатор"> </div>
+
+<!-- к примеру -->
+<div class="card__body_is-active></div>
+
+<div class="dropdown-menu">
+    <a href="#" class="dropdown-menu__link">
+        <i class="dropdown-menu__link-icon dropdown-menu__link-icon_home"></i>
+        Ссылка
+    </a>
+</div>
+
+<header class="header">
+    <div class="header__content">
+</header>

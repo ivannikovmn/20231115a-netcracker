@@ -1,0 +1,64 @@
+/* https://www.youtube.com/watch?v=cu2grT8CD-o */
+
+/*  */
+$brand-color: #ccc
+
+button {
+    color: $brand-color;
+
+    &:hover {
+        color: lighten($brand-color, 10%);
+    }
+}
+
+
+
+/*  */
+@mixin size ($width, $height) {
+    width: $width;
+    height: $height;
+}
+.block-1 {
+    @include size(200px, 200px)
+    font-size: 20px;
+}
+
+.block-2 {
+    @include size(10px, 200px)
+    color: red;
+}
+
+.block-3 {
+    @include size(20px, 200px)
+}
+
+
+
+/*  */
+.header {
+    .logo {}
+    .navigation {
+        li {}
+    }
+}
+
+
+
+/*  */
+@include 'fonts.scss'
+@include  'reset.scss'
+@include 'main.scss'
+
+
+
+/*  */
+$brand-color: #ccc;
+
+.class-1 {
+    color: $brand-color;
+}
+
+.class-2 {
+    color: $brand-color;
+}
+

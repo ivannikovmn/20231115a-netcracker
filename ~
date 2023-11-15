@@ -1,0 +1,7 @@
+Termnal vsc(bash) (Git)
+git init 
+git branch --move master main
+git add .
+git commit -m "initial"
+git remote add origin https://github.com/ivannikovmn/20231115a-netcracker	
+git push origin main
